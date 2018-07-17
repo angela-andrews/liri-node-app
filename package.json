@@ -1,0 +1,33 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "A Siri clone app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angela-andrews/liri-node-app.git"
+  },
+  "keywords": [
+    "twitter",
+    "spotify",
+    "siri-clone",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Angela Andrews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angela-andrews/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/angela-andrews/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.87.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}
