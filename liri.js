@@ -72,11 +72,11 @@ function spotifySong(){
       }
      
     //console.log(data); 
-    //var trackInfo = JSON.stringify(data.tracks.items[0].external_urls.spotify);
-    var artistName  = JSON.stringify(data.tracks.items[0].artists[0].name);
-    var songName = JSON.stringify(data.tracks.items[0].name);
-    var albumName  = JSON.stringify(data.tracks.items[0].album.name);
-    var trackUrl = JSON.stringify(data.tracks.items[0].external_urls.spotify);
+    var info = data.tracks.items[0];
+    var artistName  = JSON.stringify(info.artists[0].name);
+    var songName = JSON.stringify(info.name);
+    var albumName  = JSON.stringify(info.album.name);
+    var trackUrl = JSON.stringify(info.external_urls.spotify);
     
     console.log(`Artist(s) Name: ${artistName}\nSong Title: ${songName}\nListen Here: ${trackUrl}\nAlbum Name: ${albumName}`)
     
