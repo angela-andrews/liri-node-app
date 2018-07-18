@@ -61,16 +61,27 @@ var client = new twitter(keys.twitter);
 
 //Show information about a song  Pass on in
 function spotifySong(){
-    console.log("Song Info here");
-    var spotify = new spotify(keys.spotify);
+    //console.log("Song Info here");
+    var spotify = new Spotify(keys.spotify);
        
-      spotify.search({ type: 'track', query: 'Apeshit' }, function(err, data) {
-        if (err) {
-          return console.log('Error occurred: ' + err);
-        }
-       
-      console.log(data); 
-      });
+    var myQuery = process.argv[3];
+
+    spotify.search({ type: 'track', query: myQuery, limit: 1 }, function(err, data) {
+      if (err) {
+        return console.log('Error occurred: ' + err);
+      }
+     
+    //console.log(data); 
+    //var trackInfo = JSON.stringify(data.tracks.items[0].external_urls.spotify);
+    var artistName  = JSON.stringify(data.tracks.items[0].artists[0].name);
+    var songName = JSON.stringify(data.tracks.items[0].name);
+    var albumName  = JSON.stringify(data.tracks.items[0].album.name);
+    var trackUrl = JSON.stringify(data.tracks.items[0].external_urls.spotify);
+    
+    console.log(`Artist(s) Name: ${artistName}\nSong Title: ${songName}\nListen Here: ${trackUrl}\nAlbum Name: ${albumName}`)
+    
+    
+    });
 };
 
 function movieInfo(){
