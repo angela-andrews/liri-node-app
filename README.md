@@ -6,6 +6,8 @@ This is our week 10 assignment that uses Node.js to create a twitter bot. LIRI i
 ## Why the project is useful
 This project is a great way to introduce yourself to building node apps using API data. This was my first Node project and I learned a lot.
 
+![App Screenprint]('app.png')
+
 
 ## How to use
 1. Clone this repo
