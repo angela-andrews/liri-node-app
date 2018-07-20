@@ -82,18 +82,18 @@ function spotifySong(){
         return console.log('Error occurred: ' + err);
       }
      
-    //console.log(data); 
-    var info = data.tracks.items[0];
-    var artistName  = JSON.stringify(info.artists[0].name);
-    var songName = JSON.stringify(info.name);
-    var albumName  = JSON.stringify(info.album.name);
-    var trackUrl = JSON.stringify(info.external_urls.spotify);
-    var logTextSpotify = `Artist(s) Name: ${artistName}\nSong Title: ${songName}\nListen Here: ${trackUrl}\nAlbum Name: ${albumName}\n${separator}`;
+        //console.log(data); 
+        var info = data.tracks.items[0];
+        var artistName  = JSON.stringify(info.artists[0].name);
+        var songName = JSON.stringify(info.name);
+        var albumName  = JSON.stringify(info.album.name);
+        var trackUrl = JSON.stringify(info.external_urls.spotify);
+        var logTextSpotify = `Artist(s) Name: ${artistName}\nSong Title: ${songName}\nListen Here: ${trackUrl}\nAlbum Name: ${albumName}\n${separator}`;
 
-    console.log(logTextSpotify);
-    
-    appendToFile(logTextSpotify);
-    
+        console.log(logTextSpotify);
+        
+        appendToFile(logTextSpotify);
+        
     });
  
 };
@@ -103,46 +103,54 @@ function spotifySong(){
 function movieInfo(){
     //console.log("Movie info here");
     var title = process.argv[3];
-if(title ===undefined){
-    title="Malcolm X";
-     console.log(`Default Title Query:`);
-     console.log(`***********************************************`);
-};
-var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+    if(title ===undefined){
+        title="Malcolm X";
+        console.log(`Default Title Query:`);
+        console.log(`***********************************************`);
+    };
+    var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
 
 
-request(queryURL, function (error, response, body) {
+    request(queryURL, function (error, response, body) {
 
-    if (error) {
-        return console.log('Error occurred: ' + error);
-      }
-    
-  //console.log('error:', error); // Print the error if one occurred
-  //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-  //console.log('body:', body); // Print the HTML for the Google homepage.
-  var output = JSON.parse(body);
-  var title =output.Title;
-  var year = output.Year;
-  var imbdRating=output.Ratings[0].Value;
-  var rottenRating=output.Ratings[1].Value;
-  var country= output.Country;
-  var lang= output.Language;
-  var plot= output.Plot;
-  var actors = output.Actors;
+        if (error) {
+            return console.log('Error occurred: ' + error);
+        }
+        
+    //console.log('error:', error); // Print the error if one occurred
+    //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+    //console.log('body:', body); // Print the HTML for the Google homepage.
+    var output = JSON.parse(body);
+    var title =output.Title;
+    var year = output.Year;
+    var imbdRating=output.Ratings[0].Value;
+    var rottenRating=output.Ratings[1].Value;
+    var country= output.Country;
+    var lang= output.Language;
+    var plot= output.Plot;
+    var actors = output.Actors;
 
-  var movieData= (`Movie: ${title}\nMovie Year: ${year}\nIMDB Rating: ${imbdRating}\nRotten Tomatoes Rating: ${rottenRating}\nCountry where produced: ${country}\nLanguages: ${lang}\nPlot: ${plot}\nActors: ${actors}` );
-    
-  console.log(movieData);
-  appendToFile(movieData);
+    var movieData= (`Movie: ${title}\nMovie Year: ${year}\nIMDB Rating: ${imbdRating}\nRotten Tomatoes Rating: ${rottenRating}\nCountry where produced: ${country}\nLanguages: ${lang}\nPlot: ${plot}\nActors: ${actors}` );
+        
+    console.log(movieData);
+    appendToFile(movieData);
 
-
-
-
-});
+    });
 };
 
 function doThis(){
-    console.log(`Do this.`)
+    // console.log(`Do this.`)
+    fs.readFile('./random.txt', 'utf8', function(err, data){
+        if (err) throw err;
+        console.log(data);
+        var randomFile = data.split(",");
+        console.log(randomFile);
+        var action = randomFile[0];
+        var doThisSong = randomFile[1];
+        console.log(`Command: ${action} Song: ${doThisSong}`);
+        
+    });
+    
 };
 
 
