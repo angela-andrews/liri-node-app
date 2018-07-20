@@ -2,6 +2,11 @@
 
 This is our week 10 assignment that uses Node.js to create a twitter bot. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
+
+## Why the project is useful
+This project is a great way to introduce yourself to building node apps using API data. This was my first Node project and I learned a lot.
+
+
 ## How to use
 1. Clone this repo
 2. Get your own Twitter and Spotify Keys.
@@ -33,7 +38,14 @@ The following modules will be installed:
 * You'll use Request to grab data from the [OMDB API](http://www.omdbapi.com).
 * [FS](https://nodejs.org/api/fs.html) module will be used to interact with the file system.
 
-   
 
+To begin interacting with Liri, use the following commands: 
+* `my-tweets`
 
-To begin interacting with Liri, use the following command: 
+* `spotify-this-song`
+
+* `movie-this`
+
+* `do-what-it-says`
+
+Put any arguments that have spaces in it in quotes.
