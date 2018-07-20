@@ -74,3 +74,21 @@ Song Title: "Say My Name"
 Listen Here: "https://open.spotify.com/track/7H6ev70Weq6DdpZyyTmUXk"
 Album Name: "The Writing's On The Wall"
 ---------------------------------------------
+Movie: The Terminator
+Movie Year: 1984
+IMDB Rating: 8.0/10
+Rotten Tomatoes Rating: 100%
+Country where produced: UK, USA
+Languages: English, Spanish
+Plot: A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.
+Actors: Arnold Schwarzenegger, Michael Biehn, Linda Hamilton, Paul Winfield
+---------------------------------------------
+Movie: The Terminator
+Movie Year: 1984
+IMDB Rating: 8.0/10
+Rotten Tomatoes Rating: 100%
+Country where produced: UK, USA
+Languages: English, Spanish
+Plot: A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.
+Actors: Arnold Schwarzenegger, Michael Biehn, Linda Hamilton, Paul Winfield
+---------------------------------------------
