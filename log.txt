@@ -1,139 +1,20 @@
-Tue Jul 17 03:38:51 +0000 2018
-It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It' my bedtime, but my parents don't realize it. Everybody is still up and I want nite nite.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It' my bedtime, but my parents don't realize it. Everybody is still up and I want nite nite.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It' my bedtime, but my parents don't realize it. Everybody is still up and I want nite nite.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It's sunny out. Time to sunbathe.
----------------------------------------------
-Tue Jul 17 03:38:51 +0000 2018
-It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
----------------------------------------------
-Wed Jul 18 15:20:38 +0000 2018
-It's sunny out. Time to sunbathe.
----------------------------------------------
-Wed Jul 18 05:40:28 +0000 2018
-It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
----------------------------------------------
-Artist(s) Name: "Cardi B"
-Song Title: "I Like It"
-Listen Here: "https://open.spotify.com/track/58q2HKrzhC3ozto2nDdN4z"
-Album Name: "Invasion of Privacy"
----------------------------------------------
-Wed Jul 18 17:29:36 +0000 2018
-My mom won't stop playing Apeshit. Really, me and Siri are tired of her at this point. https://t.co/2nj9AqpSBT
----------------------------------------------
-Wed Jul 18 16:33:41 +0000 2018
-Who doesn't love applewood smoked bacon from Reading Terminal Market.🥓🥓🥓🥓🥓
----------------------------------------------
-Artist(s) Name: "Iggy Pop"
-Song Title: "The Passenger"
-Listen Here: "https://open.spotify.com/track/15BQ7vEDv2LJuh8TxWIhtd"
-Album Name: "Lust For Life"
----------------------------------------------
-Artist(s) Name: "YOHAN"
-Song Title: "#PopLife"
-Listen Here: "https://open.spotify.com/track/70fTZB4PWlqVqJHgZZLhxh"
-Album Name: "#PopLife"
----------------------------------------------
-Artist(s) Name: "Iggy Pop"
-Song Title: "The Passenger"
-Listen Here: "https://open.spotify.com/track/15BQ7vEDv2LJuh8TxWIhtd"
-Album Name: "Lust For Life"
+Movie: Malcolm X
+Movie Year: 1992
+IMDB Rating: 7.7/10
+Rotten Tomatoes Rating: 91%
+Country where produced: USA, Japan
+Languages: English
+Plot: Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam.
+Actors: Denzel Washington, Angela Bassett, Albert Hall, Al Freeman Jr.
 ---------------------------------------------
 Artist(s) Name: "Michael Jackson"
-Song Title: "Billie Jean"
-Listen Here: "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"
+Song Title: "Beat It - Single Version"
+Listen Here: "https://open.spotify.com/track/1OOtq8tRnDM8kG2gqUPjAj"
 Album Name: "Thriller 25 Super Deluxe Edition"
 ---------------------------------------------
-Artist(s) Name: "Michael Jackson"
-Song Title: "Billie Jean"
-Listen Here: "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"
-Album Name: "Thriller 25 Super Deluxe Edition"
----------------------------------------------
-Artist(s) Name: "The Carters"
-Song Title: "APESHIT"
-Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
-Album Name: "EVERYTHING IS LOVE"
----------------------------------------------
-Artist(s) Name: "Michael Jackson"
-Song Title: "Billie Jean"
-Listen Here: "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"
-Album Name: "Thriller 25 Super Deluxe Edition"
----------------------------------------------
-Wed Jul 18 17:29:36 +0000 2018
-My mom won't stop playing Apeshit. Really, me and Siri are tired of her at this point. https://t.co/2nj9AqpSBT
----------------------------------------------
-Wed Jul 18 16:33:41 +0000 2018
-Who doesn't love applewood smoked bacon from Reading Terminal Market.🥓🥓🥓🥓🥓
----------------------------------------------
-Artist(s) Name: "The Carters"
-Song Title: "APESHIT"
-Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
-Album Name: "EVERYTHING IS LOVE"
----------------------------------------------
-Artist(s) Name: "Azealia Banks"
-Song Title: "212"
-Listen Here: "https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N"
-Album Name: "Broke with Expensive Taste"
----------------------------------------------
-Artist(s) Name: "The Carters"
-Song Title: "APESHIT"
-Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
-Album Name: "EVERYTHING IS LOVE"
----------------------------------------------
-Artist(s) Name: "The Carters"
-Song Title: "APESHIT"
-Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
-Album Name: "EVERYTHING IS LOVE"
----------------------------------------------
-Artist(s) Name: "Nine Inch Nails"
-Song Title: "I'm Not from This World"
-Listen Here: "https://open.spotify.com/track/02Idl8q2bZhZEXqsWXXoG9"
-Album Name: "Bad Witch"
----------------------------------------------
-Artist(s) Name: "Calvin Harris"
-Song Title: "I Need Your Love (feat. Ellie Goulding)"
-Listen Here: "https://open.spotify.com/track/05SBRd4fXgn8FX7bf8BCAE"
-Album Name: "18 Months"
----------------------------------------------
-Artist(s) Name: "John Coltrane"
-Song Title: "A Love Supreme, Pt. I – Acknowledgement"
-Listen Here: "https://open.spotify.com/track/0CLbmkYmQIWiEwnsbOkLpd"
-Album Name: "A Love Supreme"
----------------------------------------------
-Artist(s) Name: "The Carters"
-Song Title: "APESHIT"
-Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
-Album Name: "EVERYTHING IS LOVE"
----------------------------------------------
-Fri Jul 20 03:26:20 +0000 2018
-Me and @KimaTheGreat got plenty snacks today. Not applewood smoked bacon, but It'll do.
----------------------------------------------
-Wed Jul 18 17:29:36 +0000 2018
-My mom won't stop playing Apeshit. Really, me and Siri are tired of her at this point. https://t.co/2nj9AqpSBT
----------------------------------------------
-Wed Jul 18 16:33:41 +0000 2018
-Who doesn't love applewood smoked bacon from Reading Terminal Market.🥓🥓🥓🥓🥓
----------------------------------------------
-Wed Jul 18 15:26:37 +0000 2018
-I've made it my job to have a chat with everyone who walks pass my house.
----------------------------------------------
-Wed Jul 18 15:20:38 +0000 2018
-It's sunny out. Time to sunbathe.
+Fri Jul 20 17:48:18 +0000 2018
+I just got 2 new pillows after I chewed up the last 2.
+I just chewed up 1 of my new pillows &amp; mom had to sew it bac… https://t.co/IICjrlJBVo
 ---------------------------------------------
 Fri Jul 20 03:42:59 +0000 2018
 Nite all!
@@ -151,11 +32,40 @@ Who doesn't love applewood smoked bacon from Reading Terminal Market.🥓🥓�
 Wed Jul 18 15:26:37 +0000 2018
 I've made it my job to have a chat with everyone who walks pass my house.
 ---------------------------------------------
-Movie: The Equalizer
-Movie Year: 2014
-IMDB Rating: 7.2/10
-Rotten Tomatoes Rating: 60%
-Country where produced: USA
-Languages: English, Russian, Spanish
-Plot: A man believes he has put his mysterious past behind him and has dedicated himself to beginning a new, quiet life. But when he meets a young girl under the control of ultra-violent Russian gangsters, he can't stand idly by - he has to help her.
-Actors: Denzel Washington, Marton Csokas, Chloë Grace Moretz, David Harbour
+Wed Jul 18 15:20:38 +0000 2018
+It's sunny out. Time to sunbathe.
+---------------------------------------------
+Wed Jul 18 05:40:28 +0000 2018
+It's 1:39am and mom is still pushing buttons. We're all asleep, but dad wakes up and checks on her.
+---------------------------------------------
+Wed Jul 18 03:56:15 +0000 2018
+It' my bedtime, but my parents don't realize it. Everybody is still up and I want nite nite.
+---------------------------------------------
+Wed Jul 18 00:59:57 +0000 2018
+"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for.… https://t.co/0rw0DYrSNl
+---------------------------------------------
+Wed Jul 18 00:59:07 +0000 2018
+My birthday was Friday and all I got was shampoo and hugs.Shucks, I always get hugs.
+---------------------------------------------
+Wed Jul 18 00:58:12 +0000 2018
+Mom got me some new shampoo and it smells like bacon and coconut oil, my two favorite things to eat.
+---------------------------------------------
+Wed Jul 18 00:57:30 +0000 2018
+Learning new things. Ternary Operator. https://t.co/ACfllVmz12
+---------------------------------------------
+Wed Jul 18 00:56:50 +0000 2018
+Mom is always in her office on her computer. I can't sit on her lap that way. STAPPP MOM!! I want attention!
+---------------------------------------------
+Wed Jul 18 00:55:53 +0000 2018
+Dad said that we'd still go for a walk today, but I'm not going out in this rain.
+---------------------------------------------
+Artist(s) Name: "Childish Gambino"
+Song Title: "This Is America"
+Listen Here: "https://open.spotify.com/track/0b9oOr2ZgvyQu88wzixux9"
+Album Name: "This Is America"
+---------------------------------------------
+Artist(s) Name: "The Carters"
+Song Title: "APESHIT"
+Listen Here: "https://open.spotify.com/track/0E6PsO3ymCfUh7pJQjBgkj"
+Album Name: "EVERYTHING IS LOVE"
+---------------------------------------------

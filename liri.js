@@ -10,6 +10,8 @@ var Spotify = require('node-spotify-api');
 
 var command = process.argv[2];
 var nodeArgs = process.argv;
+var myQuery="";
+var doThisSong= "";
 var separator = '---------------------------------------------';
 
 
@@ -36,7 +38,7 @@ var client = new twitter(keys.twitter);
     console.log(`tweet function.`)
     var params = {
         screen_name: 'scoutypouty1',
-        count: 5
+        count: 20
     }
 
     client.get('statuses/user_timeline', params, function(error, tweets, response) {
@@ -63,21 +65,23 @@ var client = new twitter(keys.twitter);
 /////////////////////End tweet Function ///////////////////////
 
 ////////////////////////  spotify Function ////////////////////////////
-function spotifySong(){
-    console.log("Song Info here");
-    var myQuery = process.argv[3];
-    // console.log(myQuery===undefined);
-    // return;
-    if (myQuery === undefined ) {
+/// This function querires spotify for a song by title
+function spotifySong(x){
+    // console.log(`param is ${x}`);
+    myQuery = process.argv[3];
+    
+    if(x ===doThisSong){
+        myQuery = x;
+        // console.log(`now myQuery: ${myQuery}`);
+       
+    } else if (myQuery === undefined ) {
         myQuery = 'apeshit';
-        // console.log(myQuery);
-        // return;
+        
         }
         
     var spotify = new Spotify(keys.spotify);  
-   // var myQuery = process.argv[3];
-   
-    spotify.search({ type: 'track', query: myQuery, limit: 1 }, function(err, data) {
+    // var myQuery = process.argv[3];
+    spotify.search({ type: 'track', query: myQuery, }, function(err, data) {
       if (err) {
         return console.log('Error occurred: ' + err);
       }
@@ -100,8 +104,8 @@ function spotifySong(){
 ///////////////////// spotify  Function ends///////////////////////
 
 /////////////////////////////// Movie Function ///////////////////////
+// This function queries OMBD and returns details about a movie
 function movieInfo(){
-    //console.log("Movie info here");
     var title = process.argv[3];
     if(title ===undefined){
         title="Malcolm X";
@@ -118,8 +122,9 @@ function movieInfo(){
         }
         
     //console.log('error:', error); // Print the error if one occurred
-    //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+    //console.log('statusCode:', response && response.statusCode); // Print the 
     //console.log('body:', body); // Print the HTML for the Google homepage.
+    
     var output = JSON.parse(body);
     var title =output.Title;
     var year = output.Year;
@@ -130,7 +135,7 @@ function movieInfo(){
     var plot= output.Plot;
     var actors = output.Actors;
 
-    var movieData= (`Movie: ${title}\nMovie Year: ${year}\nIMDB Rating: ${imbdRating}\nRotten Tomatoes Rating: ${rottenRating}\nCountry where produced: ${country}\nLanguages: ${lang}\nPlot: ${plot}\nActors: ${actors}` );
+    var movieData= (`Movie: ${title}\nMovie Year: ${year}\nIMDB Rating: ${imbdRating}\nRotten Tomatoes Rating: ${rottenRating}\nCountry where produced: ${country}\nLanguages: ${lang}\nPlot: ${plot}\nActors: ${actors}\n${separator}` );
         
     console.log(movieData);
     appendToFile(movieData);
@@ -139,15 +144,16 @@ function movieInfo(){
 };
 
 function doThis(){
-    // console.log(`Do this.`)
+    //read from file to get song title
     fs.readFile('./random.txt', 'utf8', function(err, data){
         if (err) throw err;
-        console.log(data);
+        // console.log(data);
         var randomFile = data.split(",");
-        console.log(randomFile);
-        var action = randomFile[0];
-        var doThisSong = randomFile[1];
-        console.log(`Command: ${action} Song: ${doThisSong}`);
+        doThisSong = randomFile[1];
+        //console.log(`Random Song: ${doThisSong}`);
+        doThisSong =JSON.parse(doThisSong);
+        //call the spotify function and pass this song in
+        spotifySong(doThisSong);
         
     });
     
